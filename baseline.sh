@@ -1,0 +1,3 @@
+#python train_nado.py --cuda 7 --baseline --samples_file dump/base/GPT2_20000-30000-200-20-API.pt --save_dir dump/base/base_0_5.pt
+#python train_nado.py --cuda 7 --eval_model base --load_dir dump/base/base_0_5.pt --save_dir dump/base/base_0_5_10000-11000-200-20-None.pt
+python perspectiveAPI.py --cuda 7 --ppl --eval --filename dump/base/base_0_5_10000-11000-200-20-None.pt --batch_size 50 >> dump/base/results.txt
