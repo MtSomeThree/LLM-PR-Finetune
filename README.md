@@ -1,7 +1,7 @@
 # LLM-PR-Finetune
 finetune large language model via controllable generation
 
-Preliminary Experiments for GPT-2 related experiments
+To run GPT2 model experiment, replace the class name NADO_Llama by NADOInd
 
 ## Setup
 
